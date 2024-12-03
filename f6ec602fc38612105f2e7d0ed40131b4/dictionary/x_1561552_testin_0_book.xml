@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d48dec2fc38612105f2e7d0ed40131cb" label="book" max_length="40" name="x_1561552_testin_0_book" type="collection">
+        <element attributes="edge_encryption_enabled=true" display="true" label="Library" max_length="40" name="library" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Title" max_length="40" name="title" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Release" max_length="40" name="release" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Author" max_length="40" name="author" reference="x_1561552_testin_0_author" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Pages" max_length="40" name="pages" type="string"/>
+    </element>
+</database>

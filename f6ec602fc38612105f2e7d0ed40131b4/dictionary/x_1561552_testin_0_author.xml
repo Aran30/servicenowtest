@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="116d6c2fc38612105f2e7d0ed4013115" label="Author" max_length="40" name="x_1561552_testin_0_author" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
+        <element label="Book" max_length="1024" name="book" reference="x_1561552_testin_0_book" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" display="true" label="memberType" max_length="40" name="membertype" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Adult" sequence="1" value="adult"/>
+                <element inactive_on_update="false" label="Student" sequence="0" value="student"/>
+            </choice>
+        </element>
+    </element>
+</database>
