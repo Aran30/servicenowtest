@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="364da82fc38612105f2e7d0ed40131b2" label="library" max_length="40" name="x_1561552_testin_0_library" type="collection">
-        <element attributes="edge_encryption_enabled=true" label="Address" max_length="40" name="address" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Namee" max_length="40" name="namee" type="string"/>
-        <element label="Book" max_length="40" name="book" reference="x_1561552_testin_0_book" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" label="Address is coming here" max_length="40" name="address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
+        <element label="Book" max_length="1024" name="book" reference="x_1561552_testin_0_book" type="glide_list"/>
     </element>
 </database>
